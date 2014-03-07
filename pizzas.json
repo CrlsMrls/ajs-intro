@@ -1,0 +1,186 @@
+ [
+	{
+		"id":1,
+		"name": "Carlos",
+		"type": "Vegetarian",
+		"price": 12.99,
+		"description": "Our famous pepperoni, Spanish sausage, mushrooms, black olives, bell peppers, onions & diced tomatoes."
+	},
+	{ 
+		"id": 2,
+		"name": "The Everest",
+		"type": "Meat",
+		"price": 21.99,
+		"description": "Pepperoni, Italian sausage, salami, linguica, beef, mushrooms, black olives, bell peppers, and onion. Pizza the way it oughta be!"
+	},
+	{ 
+		"id": 3,
+		"name": "Mt. Veggiemore",
+		"type": "Vegetarian",
+		"price": 14.99,
+		"description": "Lots of mushrooms, black olives, bell peppers, artichoke hearts, and fresh tomatoes. A pizza so great, its likeness should be carved in the side of a mountain."
+	},
+	{ 
+		"id": 4,
+		"name": "Pike's Peak",
+		"type": "Meat",
+		"price": 19.99,
+		"description": "Mounds of sausage, pepperoni, beef, salami, linguica, and ham. If we put any more meat on this pizza, you'd need a side of mashed potatoes and gravy."
+	},
+	{ 
+		"id": 5,
+		"name": "Garlic Chicken",
+		"type": "Meat",
+		"price": 19.99,
+		"description": "Tender chicken pieces, tomatoes, olives, mushrooms and fresh green onions with a creamy garlic white or traditional red sauce." 
+	},
+	{ 
+		"id": 6,
+		"name": "Garlic Combo",
+		"type": "Vegetarian",
+		"price": 12.99,
+		"description": "A combination of creamy garlic white sauce piled high with pepperoni, mushrooms, olives, sausage, green onions and diced tomatoes." 
+	},
+	{ 
+		"id": 7,
+		"name": "Pineapple Chicken",
+		"type": "Meat",
+		"price": 15.99,
+		"description": "A tropical treat! Made with tangy KC Masterpiece BBQ sauce, crispy bacon, juicy Dole pineapple, and grilled chicken." 
+	},
+	{ 
+		"id": 8,
+		"name": "Chicken Club",
+		"type": "Meat",
+		"price": 18.99,
+		"description": "Loaded with our rich and creamy garlic sauce, tender chicken, crisp bacon, fresh diced tomatoes and sweet green onions." 
+	},
+	{ 
+		"id": 9,
+		"name": "Bacon Classic",
+		"type": "Meat",
+		"price": 16.99,
+		"description": "Crispy bacon and tender ham in creamy garlic sauce, mozzarella cheese, sliced mushrooms, olives, and sweet green onions." 
+	},
+	{ 
+		"id": 10,
+		"name": "Garlic Tuscan",
+		"type": "Meat",
+		"price": 22.99,
+		"description": "Topped with Louisiana Hot Sausage, salami, black olives, garlic, fresh green onions, and sun dried tomatoes on our traditional red sauce." 
+	},
+	{ 
+		"id": 11,
+		"name": "Meat Ball", 
+		"type": "Meat",
+		"price": 24.99,
+		"description": "Juicy Meatballs/Green Pepper/Onion " 
+	},
+	{ 
+		"id": 12,
+		"name": "Philly Steak", 
+		"type": "Meat",
+		"price": 16.99,
+		"description": "Steak Meat/Mushroom/Green Pepper/Onion/White Cheddar On The Base " 
+	},
+	{ 
+		"id": 13,
+		"name": "Butter Chicken", 
+		"type": "Meat",
+		"price": 15.99,
+		"description": "Butter Chicken/Green Peppers/Onions/Roasted Red Peppers " 
+	},
+	{ 
+		"id": 14,
+		"name": "BBQ Chicken", 
+		"type": "Meat",
+		"price": 19.99,
+		"description": "Bbq Chicken/Mushroom/Red Onion " 
+	},
+	{ 
+		"id": 15,
+		"name": "Tandoori Chicken", 
+		"type": "Meat",
+		"price": 22.99,
+		"description": "Tandoori Chicken/Green Peppers/Onions/Roasted Red Peppers " 
+	},
+	{ 
+		"id": 16,
+		"name": "Buffalo Chicken", 
+		"type": "Meat",
+		"price": 21.99,
+		"description": "Onion/ Hot Pepper/ Buffalo Chicken " 
+	},
+	{ 
+		"id": 17,
+		"name": "Spicy Italian", 
+		"type": "Meat",
+		"price": 20.99,
+		"description": "Thin Crest/Hot Italian Sausage/Ham/Roasted Red Peppers " 
+	},
+	{ 
+		"id": 18,
+		"name": "Bacon Cheese Burger", 
+		"type": "Meat",
+		"price": 17.99,
+		"description": "Bacon/Ground Beef/Cheddar/Mozzarella Cheese" 
+	},
+
+	{ 
+		"id": 19,
+		"name": "Garden Veggie", 
+		"type": "Vegetarian",
+		"price": 11.99,
+		"description": "Green Pepper/Onion/Tomato/ Green Olive " 
+	},
+	{ 
+		"id": 20,
+		"name": "Health Smart", 
+		"type": "Vegetarian",
+		"price": 12.99,
+		"description": "Green Pepper/Onion/Mushroom/Brococcli " 
+	},
+	{ 
+		"id": 21,
+		"name": "Paneer (Curd Cheese)",
+		"type": "Vegetarian", 
+		"price": 14.99,
+		"description": "Green Peppers/Onions/Roasted Red Peppers " 
+	},
+	{ 
+		"id": 22,
+		"name": "Quattro Formaggi",
+		"type": "Vegetarian", 
+		"price": 16.99,
+		"description": "Tomatoes, and the cheeses mozzarella, stracchino, fontina and gorgonzola." 
+	},
+	{ 
+		"id": 23,
+		"name": "Pizza romana",
+		"type": "Vegetarian", 
+		"price": 16.99,
+		"description": "Tomato, mozzarella, anchovies, oregano, oil." 
+	},
+	{ 
+		"id": 24,
+		"name": "Alla casalinga",
+		"type": "Vegetarian", 
+		"price": 16.99,
+		"description": "Consists of a thin layer of dough which is stretched into an oiled, square 'Sicilian' pan, topped sparingly with shredded mozzarella, crushed uncooked canned tomatoes, chopped garlic and olive oil, and baked until the top bubbles and the bottom is crisp." 
+	},
+	{ 
+		"id": 25,
+		"name": "Capricciosa",
+		"type": "Meat", 
+		"price": 16.99,
+		"description": "Mozzarella, tomato, mushrooms, artichokes, cooked ham, olives, oil." 
+	},
+	{ 	
+		"id": 26,
+		"name": "Spicy Veggie", 
+		"type": "Vegetarian",
+		"price": 11.99,
+		"description": "Green Pepper/Onion/Tomatoes/Hot Peppers" 
+	}
+
+]

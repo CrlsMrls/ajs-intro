@@ -1,0 +1,16 @@
+<html ng-app>
+<header>
+</header>
+<body ng-init="userNames=['Alice','Bob','Carol']">
+	<B>Array:</B> {{userNames}}
+	<BR><BR>
+	<B>List of values:</B>
+	<UL>
+		<LI ng-repeat="user in userNames">{{user}}</LI>
+	</UL>
+	<BR>
+	<B>Change first value:</B> <input type="text" ng-model="userNames[0]">
+
+	<script src="../lib/angular.min.js"></script>
+<body>
+</html>

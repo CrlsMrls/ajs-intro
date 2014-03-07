@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" ng-app="pizzaApp">
+<head>
+  <meta charset="utf-8">
+  <title>Carlos' Pizza</title>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <script src="../lib/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+
+<div class="col-lg-12">
+<div  ng-controller="shopListController">
+  <H2>Select pizzas to buy</H2>
+      
+  <!-- Filters -->  
+  <div class="col-sm-2">
+    <h4>Filter</h4>
+    <div class="input-group">
+      <span class="input-group-addon">
+        <span class="glyphicon glyphicon-search"></span></span>
+      <input type="text" class="form-control" placeholder="Search">
+    </div>
+    <BR>
+    <select class="form-control">
+      <option value="">Both</option>
+      <option value="Meat">Meat</option>
+      <option value="Vegetarian">Vegetarian</option>
+    </select>
+    <BR>
+    <h4>Order by</h4>
+    <select class="form-control">
+      <option value="id">Id</option>
+      <option value="name">Alphabetically</option>
+      <option value="price">Lowest price</option>
+    </select>
+  </div>
+  <!-- End of Filters -->  
+  
+
+  <!-- List of pizzas -->
+  <div class="col-sm-6">
+    <h4>Showing {{pizzaList.length}} pizzas </h4>
+
+    <!-- Pizza is shown using panel -->
+    <div class="panel panel-info" ng-repeat="pizza in pizzaList">
+      <div class="panel-heading">
+        <h2 class="panel-title">{{pizza.name}} <small> {{pizza.type}} </small></h2>
+      </div>  
+      <div class="panel-body">
+        <p class="col-sm-9">
+          {{pizza.description}}
+        </p>
+        <div class="col-sm-3">
+          <h2> {{pizza.price}} <small>CHF</small></h2>
+            <button type="button" class="btn btn-primary">
+              <span class="glyphicon glyphicon-shopping-cart"></span> Buy
+            </button>
+        </div>
+      </div>
+    </div>
+
+  <!-- End of List of pizzas -->
+</div>
+</div>
+
+  <!-- Shopping Cart -->
+  <div class="col-sm-4" ng-controller="shopCartController">
+    <h4><span class="glyphicon glyphicon-shopping-cart"></span>Cart</h4>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <table class="table table-condensed">
+          <thead>
+            <tr>
+              <th>Pizza</th>
+              <th>Price</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="cart in shopCartList">
+              <td>{{cart.name}}</td>
+              <td>{{cart.price}} <sub class="text-muted">CHF</sub></td>
+              <td><span class="glyphicon glyphicon-trash" ng-click="removeFromCart($index)"></span></td>
+            </tr>
+           
+            <tr class="active">
+              <td></td>
+              <td> {{totalPrice()}} <sub class="text-muted">CHF</sub></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+
+      </div>
+    </div> 
+  </div>
+  <!-- End Shopping Cart -->
+    
+</div>
+
+
+</body>
+</html>

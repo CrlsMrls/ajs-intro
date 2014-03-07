@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Carlos' Pizza</title>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="col-lg-12">
+  <H2>Select pizzas to buy</H2>
+      
+  <!-- Filters -->  
+  <div class="col-sm-2">
+    <h4>Filter</h4>
+    <div class="input-group">
+      <span class="input-group-addon">
+        <span class="glyphicon glyphicon-search"></span></span>
+      <input type="text" class="form-control" placeholder="Search">
+    </div>
+    <BR>
+    <select class="form-control">
+      <option value="">Both</option>
+      <option value="Meat">Meat</option>
+      <option value="Vegetarian">Vegetarian</option>
+    </select>
+    <BR>
+    <h4>Order by</h4>
+    <select class="form-control">
+      <option value="name">Alphabetically</option>
+      <option value="price">Lowest price</option>
+    </select>
+  </div>
+  <!-- End of Filters -->  
+  
+
+  <!-- List of pizzas -->
+  <div class="col-sm-6">
+    <h4>Showing 10 of 10 pizzas </h4>
+
+    <!-- Pizza is shown using panel -->
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h2 class="panel-title">Pizza X <small> Vegetarian </small></h2>
+      </div>  
+      <div class="panel-body">
+        <p class="col-sm-9">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+        <div class="col-sm-3">
+          <h2> XY.50 <small>CHF</small></h2>
+            <button type="button" class="btn btn-primary">
+              <span class="glyphicon glyphicon-shopping-cart"></span> Buy
+            </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pizza is shown using panel -->
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h2 class="panel-title">Pizza Y <small> Vegetarian </small></h2>
+      </div>  
+      <div class="panel-body">
+        <p class="col-sm-9">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+        <div class="col-sm-3">
+          <h2> YZ.50 <small>CHF</small></h2>
+            <button type="button" class="btn btn-primary">
+              <span class="glyphicon glyphicon-shopping-cart"></span> Buy
+            </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pizza is shown using panel -->
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h2 class="panel-title">Pizza Z <small> Meat </small></h2>
+      </div>  
+
+      <div class="panel-body">
+        <p class="col-sm-9">
+          Sinclair ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+        <div class="col-sm-3">
+          <h2> ZX.81 <small>CHF</small></h2>
+            <button type="button" class="btn btn-primary">
+              <span class="glyphicon glyphicon-shopping-cart"></span> Buy
+            </button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <!-- End of List of pizzas -->
+  
+
+  <!-- Shopping Cart -->
+  <div class="col-sm-4">
+    <h4><span class="glyphicon glyphicon-shopping-cart"></span>Cart</h4>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <table class="table table-condensed">
+          <thead>
+            <tr>
+              <th>Pizza</th>
+              <th>Price</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pizza X</td>
+              <td>XX.50 <sub class="text-muted">CHF</sub></td>
+              <td><span class="glyphicon glyphicon-trash"></span></td>
+            </tr>
+            <tr>
+              <td>Pizza Y</td>
+              <td>YY.50 <sub class="text-muted">CHF</sub></td>
+              <td><span class="glyphicon glyphicon-trash"></span></td>
+            </tr>
+            <tr>
+              <td>Pizza Z</td>
+              <td>ZZ.50 <sub class="text-muted">CHF</sub></td>
+              <td><span class="glyphicon glyphicon-trash"></span></td>
+            </tr>
+            <tr class="active">
+              <td></td>
+              <td> XYZ.50 <sub class="text-muted">CHF</sub></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+
+      </div>
+    </div> 
+  </div>
+  <!-- End Shopping Cart -->
+    
+</div>
+
+
+</body>
+</html>
