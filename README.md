@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 AngularJS Intro
 ===============
 
@@ -28,3 +29,9 @@ GNU General Public License
 Enjoy!
 
 
+=======
+ajs-intro
+=========
+
+This code was used to introduce Angular JavaScript Framework in the AngularJS Zürich Meetup
+>>>>>>> 27f69847767644da3b170f2a8a0595ee2e7cce25
