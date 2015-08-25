@@ -1,23 +1,21 @@
 'use strict';
 
-angular.module('pizzaApp', []).
-	factory('shopCartService', function(){
+angular.module('pizzaApp', [])
+	.factory('shopCartService', function(){
 
 		var factoryInstance = {};
-
 		var pizzaListCart = [];
 
 		factoryInstance.addPizzaToCart = function(pizza) {
 			pizzaListCart.push({name: pizza.name, price: pizza.price});
 		};
-
 		factoryInstance.getCart = function(){
 			return pizzaListCart;
 		};
 
 		return factoryInstance;
-	}).
-	controller('shopListController', function($scope, $http, shopCartService) {
+	})
+	.controller('shopListController', function($scope, $http, shopCartService) {
 		
 		$scope.buy = function ( pizza ) {
 			shopCartService.addPizzaToCart(pizza);
@@ -31,8 +29,8 @@ angular.module('pizzaApp', []).
 
 		$scope.orderValue = 'name';
 
-	}).
-	controller('shopCartController', function($scope, shopCartService){
+	})
+	.controller('shopCartController', function($scope, shopCartService){
 
 		$scope.shopCartList = shopCartService.getCart();
 
